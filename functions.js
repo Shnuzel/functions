@@ -41,10 +41,19 @@
 //     return num
 // }
 // console.log(factorial(4))
-let= beep="beep"
-const beep_in_end=(message )=>
-{
-    return(message+beep)
-}
+// 6
+// let= beep="beep"
+// const beep_in_end=(message )=>
+// {
+//     return(message+beep)
+// }
 
-console.log(beep_in_end("ooga booga "))
+// console.log(beep_in_end("ooga booga "))
+
+const mul2nums =(num1,num2) =>{
+    if(num1<0||num2<0){
+        return 0
+    }
+    else{return num1*num2}
+}
+console.log(mul2nums(2,5))
