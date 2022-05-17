@@ -12,7 +12,19 @@
 
 // console.log(SumNumbers(9,8,9))
 
-const divideNum =(num1,num2) =>{
-    return num1/num2
+// 3
+// const divideNum =(num1,num2) =>{
+//     return num1/num2
+// }
+// console.log(divideNum(8,4))
+
+const Divide =(num1,num2) =>{
+   
+    if(num2===0){
+        return "null" && console.log("illegal")
+    }
+    else{return num1/num2}
+    
 }
-console.log(divideNum(8,4))
+
+console.log(Divide(2,2))
