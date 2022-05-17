@@ -30,14 +30,21 @@
 
 // console.log(Divide(2,2))
 
-const factorial = (num) => {
-    if (num === 0 || num === 1) {
-        return 1;
-    }
-    for (index = (num - 1); index >= 1; index--) {
-        num = num * index
-    }
-    return num
+// 5
+// const factorial = (num) => {
+//     if (num === 0 || num === 1) {
+//         return 1;
+//     }
+//     for (index = (num - 1); index >= 1; index--) {
+//         num = num * index
+//     }
+//     return num
+// }
+// console.log(factorial(4))
+let= beep="beep"
+const beep_in_end=(message )=>
+{
+    return(message+beep)
 }
-console.log(factorial(4))
 
+console.log(beep_in_end("ooga booga "))
